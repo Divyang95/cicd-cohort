@@ -8,7 +8,9 @@ app.get('/', (req,res) => {
     res.send('Hello World')
 }) 
 
-
+app.get("/chai", (req,res) => {
+    res.send('Hello Chai World')
+});
 
 // app.get("/crash", (req,res) => {
 //     res.send('App is crashing.....')
