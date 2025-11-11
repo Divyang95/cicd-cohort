@@ -19,7 +19,7 @@ app.get("/chai", (req,res) => {
 
 //take input from param and return it back 
 app.get("/:id", (req,res) => {
-    res.send(`Hello Divyang World ${req.params.id}`);       
+    res.send(`Hello World ${req.params.id}`);       
 }); 
 
 
